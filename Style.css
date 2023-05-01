@@ -4,7 +4,7 @@ padding: 0;
 margin: 0;
 }
 body{
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Fredoka';
 }
 
 main{
@@ -132,7 +132,8 @@ div .material-symbols-outlined:hover{
     height: 90px;
 }
 .barrabuscador{
-    display: flex;  
+    display: flex;
+    height: 100px;  
 }
 
 .buscador{
@@ -212,26 +213,25 @@ a .material-symbols-outlined {
     height: 35px;
     margin-left: 300px;;
     border-radius: 5px;
-    font-size: small;
+    font-size: smaller;
     border: solid 1px rgb(155, 154, 154); 
     transition: all .3s;
 }
 .seguirorden:hover{
-  transform: scale(1.1);
+  transform: scale(1.05);
   background-color: orangered;
   color: white;
-  /* font-size: small; */
-  /* background-color: blue; */
+  cursor: pointer;
 }
 nav a{
     margin-left: 30px;
     text-decoration: none;
     color: black;
     font-size: small;
-
 }
-
-
+nav{
+    padding-top:7px;
+}
 .mujer{
     margin-top: 50px;
     border-radius: 5%;
@@ -240,7 +240,6 @@ nav a{
 }
 .dibujo{
     display: flex;
-    /* border: solid 1px black; */
     justify-content: center;
 }
 .linea{
@@ -257,15 +256,12 @@ nav a{
     {
         display: flex;
         justify-content: space-between; 
-        /* border: solid 1px black; */
         padding: 0px 45px;
         flex-wrap: nowrap;
         align-content: center;
-        /* height: 50px; */
     } 
 
 .g{
-    /* border: solid 1px rgb(155, 154, 154); */
     width: 40px;
     height: 35px; 
     margin-top: 1.5px;
@@ -290,7 +286,8 @@ i{
 }
 
 .botonlogo:hover{
-    transform: scale(1.2);
+    cursor: pointer;
+    transform: scale(1.1);
 
 }
 .formulario{
@@ -308,7 +305,6 @@ i{
     font-size: medium;
     color: rgb(104, 103, 103);
     font-weight: 590; 
-
 }
 
 
@@ -347,8 +343,11 @@ label{
     font-size: small;
     margin-top: 15px;
     font-weight: 590;
+    transition: all .3s;
 }
-
+label:hover{
+    cursor: pointer;
+}
 input{
     height: 30px;
     margin-top: 5px;
@@ -360,14 +359,7 @@ input{
     color: rgb(155, 154, 154);
 }
 
-::-ms-reveal{
-    /* display: none; */
-    border: 1px solid transparent;
-    border-radius: 50%;
-    box-shadow: 0 0 3px currentColor;
-}
 .Olvidaste{
-    /* border: solid 1px #353535; **/
     text-decoration: none;
     font-size: small;
     font-weight: 590;
@@ -385,17 +377,15 @@ input{
     padding: 10px 16px;
     border-radius: 10px;
     font-weight: bolder;
-    color: black;
+    /* color: black; */
     transition: all .3s;
+    background-color: orangered;
+    color: white;
      
 
 }
 .boton2:hover{
-    font-weight: lighter;
-    padding: 10px 16px;
-    border-radius: 10px;
-    background-color: orangered;
-    color: white;
+    transform: scale(1.05);
 }
 .noaccount{
     text-decoration: none;
@@ -423,9 +413,26 @@ input{
     font-size: small;
     color: orangered;
 }
-footer p{
-    margin-top:50px;
-    margin-bottom: 30px;
+footer{
+    height: 50px;
+}
+footer a{
+    margin-left: 540px;
     text-align: center;
+    text-decoration: none;
+    color: black;
+
     
 }
+footer p{
+    margin-left: 540px;
+    margin-right: 550px;
+    margin-top:50px;
+    text-align: center;
+    /* border-top: solid 1px rgb(104, 103, 103);
+    transform: scaleX(0.001);
+    transition: border 60s; */
+}
+/* footer:hover p{
+        transform: scaleX(1);
+} */
