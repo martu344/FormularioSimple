@@ -19,9 +19,10 @@ h1{
     display: flex;
     background-color: rgb(41, 41, 41);
     color: white; 
-    padding: 18px 0;
+    padding: 10px 0;
     justify-content: start;
     flex-wrap: nowrap;
+    height: 30px;
 }
 .fa-phone {
     padding: 0;
@@ -34,13 +35,13 @@ h1{
     margin-right: 15px;
 }
 .mail{
-    margin-top: 4px;
+    margin-top: 7px;
     font-size: small;
     color: white;
     margin-right: 50px;
 }
 .tel{
-    margin-top: 4px;
+    margin-top: 7px;
     margin-left: 40px;
     text-decoration: none;
     font-size: small;
@@ -49,14 +50,16 @@ h1{
 }
 
 .delivery{
-    margin-top: 4px;
+    margin-top: 7px;
     text-decoration: none;
     font-size: small;
     color: white;
-    margin-left:450px ;
+    margin-left:440px ;
+    margin-right: 25px;
+    
 }
 .lineaheader{
-    margin:0 25px;
+    margin:1px 25px;
     border-right: solid 1px white;
 }
 .fa-truck-fast{
@@ -89,7 +92,7 @@ h1{
     cursor: pointer;
     width: 45px;
     height: 17px;
-    margin-top: 5px;
+    margin-top: 7px;
 }
 .select1{
     appearance: none;
@@ -103,12 +106,13 @@ h1{
     cursor: pointer;
     width: 60px;
     height: 15px;
-    margin-top: 5px;
+    margin-top: 8px;
 }
 
 .material-symbols-outlined {
     position:relative;
     right: 20px;
+    top: 4px;
     transition: all 0.25s ease;
     font-variation-settings:
     'FILL' 0,
@@ -116,12 +120,15 @@ h1{
     'GRAD' 0,
     'opsz' 48
 }
+div .material-symbols-outlined:hover{
+    margin-top: 2px;
+}
 
 
 .logop{
     margin-top: 10px;
     margin-left: 20px;
-    width: 80px;
+    width: 90px;
     height: 90px;
 }
 .barrabuscador{
@@ -143,11 +150,27 @@ h1{
 
 .favoritos{
     margin-top: 30px;
-    margin-left: 170px;
+    margin-left: 160px;
     font-size: small;
     height: 20px;
 }
 a .material-symbols-outlined {
+    position: absolute;
+    top: 68px;
+    right: 260px;
+    margin: 0;
+    color: orangered;
+    font-variation-settings:
+    'FILL' 50,
+    'wght' 15,
+    'GRAD' 350,
+    'opsz' 10
+
+  }
+  .carrito .material-symbols-outlined {
+    position: absolute;
+    top: 68px;
+    right: 145px;
     margin: 0;
     color: orangered;
     font-variation-settings:
@@ -171,7 +194,7 @@ a .material-symbols-outlined {
     margin-right: 10px;
 }
 .user{ 
-    margin-top: 38px;
+    margin-top: 30px;
     margin-left: 30px;
     height: 25px;
     font-size: small;
@@ -191,6 +214,7 @@ a .material-symbols-outlined {
     border-radius: 5px;
     font-size: small;
     border: solid 1px rgb(155, 154, 154); 
+    transition: all .3s;
 }
 .seguirorden:hover{
   transform: scale(1.1);
@@ -255,6 +279,7 @@ nav a{
     height: 40px; 
     padding:0;
     background-color: white; 
+    transition: all .3s;
 }
 i{
     text-align: center;
@@ -292,7 +317,6 @@ i{
     justify-content: space-between;
     margin:0 50px;
     padding: 0 0px;
-    /* border: solid 1px black; */
 }
 .boton1{
     text-decoration: none; 
@@ -301,23 +325,19 @@ i{
     text-align: center;
     color: black;
     font-weight: bolder;
-    /* border: solid 1px black; */
     width: 50px;
     padding: 8px 14px;
-    /* width: 55px;
-    height: 15px; */
+    border-radius: 10px;
+    transition: all .3s;
 }
 .boton1:hover{
     width: 50px;
     font-weight: lighter;
     padding: 8px 14px;
-    border-radius: 10px;
-    /* border: solid 1px black; */
     background-color: orangered;
     color: white;
 }
 form{
-    /* border: solid 1px black; */
     display: flex;
     flex-direction: column;
     padding: 0px 40px;
@@ -360,13 +380,13 @@ input{
     margin-top: 15px;
     text-decoration-style: none;
     text-align: center;
-    /* border: solid 1px #353535; */
     width: 100px;
     margin-left: 50px;
     padding: 10px 16px;
     border-radius: 10px;
     font-weight: bolder;
     color: black;
+    transition: all .3s;
      
 
 }
@@ -374,7 +394,6 @@ input{
     font-weight: lighter;
     padding: 10px 16px;
     border-radius: 10px;
-    /* border: solid 1px black; */
     background-color: orangered;
     color: white;
 }
@@ -391,14 +410,13 @@ input{
     width: 120px;
     margin-top: 15px;
     margin-left: 100px;
-    /* border: solid 1px black; */
     text-align: center;
     text-decoration: underline;
     line-height: 15px;
     font-size: small;
     color: black;
     font-weight: bolder;
-    /* border: solid 1px black; */
+    transition: all .3s;
 }
 
 .registro:hover{
