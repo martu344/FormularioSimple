@@ -8,8 +8,6 @@ body{
 }
 
 main{
-    /* background-color: black; */
-    /* border: solid 1px black; */
     display: flex;
     align-items: stretch;
     justify-content: center;
@@ -26,17 +24,12 @@ h1{
     flex-wrap: nowrap;
 }
 .fa-phone {
-    /* border: solid 1px rgb(247, 244, 244); */
-    /* margin-top: 8px; */
     padding: 0;
     text-align: center;
     margin-right: 15px;
-    /* margin-left: 40px;  */
+    
 }
 .fa-envelope{
-    /* border: solid 1px rgb(247, 244, 244); */
-    /* margin-top: 8px;
-    padding: 0; */
     text-align: center;
     margin-right: 15px;
 }
@@ -49,7 +42,6 @@ h1{
 .tel{
     margin-top: 4px;
     margin-left: 40px;
-    /* border: solid 1px rgb(247, 244, 244); */
     text-decoration: none;
     font-size: small;
     color: white;
@@ -61,30 +53,43 @@ h1{
     text-decoration: none;
     font-size: small;
     color: white;
-    margin-left:560px ;
-    /* margin-right: 10px; */
-    /* padding-right: 25px;  */
+    margin-left:450px ;
 }
 .lineaheader{
     margin:0 25px;
     border-right: solid 1px white;
 }
 .fa-truck-fast{
-    /* margin-top: 5px; */
-    /* margin-left:600px ;*/
     margin-right: 10px; 
     text-decoration: none;
     text-decoration-line: none;
     font-size: medium;
-    font-weight: thin;
-    /* border: solid 1px white;
-    color: white; */
+    font-weight: thin
 }
 .l1{
     color: white;
     font-size: small;
     font-weight: lighter;
 
+}
+.selectpadre{
+    display: flex;
+    cursor: pointer;
+    height: 15px;
+}
+.select0{
+    appearance: none;
+    border: none;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    margin: 0;
+    margin-left: 15px;
+    font-size: small;
+    font-weight: lighter; 
+    cursor: pointer;
+    width: 45px;
+    height: 17px;
+    margin-top: 5px;
 }
 .select1{
     appearance: none;
@@ -95,27 +100,29 @@ h1{
     margin-left: 15px;
     font-size: small;
     font-weight: lighter; 
-}
-.selectpadre{
-    display: flex;
-    /* border: solid 1px white; */
     cursor: pointer;
+    width: 60px;
+    height: 15px;
+    margin-top: 5px;
 }
+
 .material-symbols-outlined {
+    position:relative;
+    right: 20px;
     transition: all 0.25s ease;
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 1000,
-  'GRAD' 0,
-  'opsz' 48
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 1000,
+    'GRAD' 0,
+    'opsz' 48
 }
 
 
 .logop{
     margin-top: 10px;
     margin-left: 20px;
-    width: 70px;
-    height: 80px;
+    width: 80px;
+    height: 90px;
 }
 .barrabuscador{
     display: flex;  
@@ -126,22 +133,32 @@ h1{
     margin-left: 300px;
     margin-bottom: 50px;
     width: 400px;
-    height: 40px;
+    height: 37px;
 }
 .barrabuscador a{
-    /* margin-top: 20px; */
     text-decoration: none;
     color: black;
 
 }
+
 .favoritos{
     margin-top: 30px;
-    margin-left: 200px;
+    margin-left: 170px;
     font-size: small;
+    height: 20px;
 }
+a .material-symbols-outlined {
+    margin: 0;
+    color: orangered;
+    font-variation-settings:
+    'FILL' 50,
+    'wght' 15,
+    'GRAD' 350,
+    'opsz' 10
+
+  }
 .fa-heart{
     margin-right: 10px;
-    /* margin-top: 20px; */
     color: black;
 }
 .carrito{
@@ -151,14 +168,36 @@ h1{
     font-size: small;
 }
 .fa-cart-shopping{
-    /* border: solid 1px black; */
     margin-right: 10px;
 }
 .user{ 
-    margin-top: 30px;
+    margin-top: 38px;
     margin-left: 30px;
     height: 25px;
     font-size: small;
+}
+.menu{
+    display: flex;
+}
+.fa-paper-plane{
+    margin-right: 8px;
+}
+.seguirorden{
+    padding: 0;
+    background-color: white;
+    width: 130px;
+    height: 35px;
+    margin-left: 300px;;
+    border-radius: 5px;
+    font-size: small;
+    border: solid 1px rgb(155, 154, 154); 
+}
+.seguirorden:hover{
+  transform: scale(1.1);
+  background-color: orangered;
+  color: white;
+  /* font-size: small; */
+  /* background-color: blue; */
 }
 nav a{
     margin-left: 30px;
@@ -168,7 +207,9 @@ nav a{
 
 }
 
+
 .mujer{
+    margin-top: 50px;
     border-radius: 5%;
     margin-right:50px ;
     width: 380x;
@@ -185,7 +226,9 @@ nav a{
     margin-left: 5px;
     margin-right: 5px;
 }
-
+.formulario h1{
+    margin:15px 0;
+}
 .logitos
     {
         display: flex;
@@ -226,14 +269,16 @@ i{
 
 }
 .formulario{
+    margin-top: 50px;
     border: solid 1px rgb(155, 154, 154);
     flex: 0 0 25%;
     border-radius: 3%;  
     padding-bottom: 5px; 
+    height: 460px;
     
 }
 .division{
-    /* ver como hacer las lineas */
+    margin:15px 0;
     text-align: center;
     font-size: medium;
     color: rgb(104, 103, 103);
@@ -241,11 +286,6 @@ i{
 
 }
 
-a{
-    
-        /* border: solid 1px black; */
-
-}
 
 .boton{
     display: flex;
@@ -255,6 +295,7 @@ a{
     /* border: solid 1px black; */
 }
 .boton1{
+    text-decoration: none; 
     line-height: 15px;
     font-size: small;
     text-align: center;
@@ -263,7 +304,6 @@ a{
     /* border: solid 1px black; */
     width: 50px;
     padding: 8px 14px;
-    text-decoration: none; 
     /* width: 55px;
     height: 15px; */
 }
@@ -299,14 +339,23 @@ input{
     font-size: small;
     color: rgb(155, 154, 154);
 }
+
+::-ms-reveal{
+    /* display: none; */
+    border: 1px solid transparent;
+    border-radius: 50%;
+    box-shadow: 0 0 3px currentColor;
+}
 .Olvidaste{
     /* border: solid 1px #353535; **/
+    text-decoration: none;
     font-size: small;
     font-weight: 590;
     margin: 5px;
     color: rgb(104, 103, 103);
 }
 .boton2{
+    text-decoration: none;
     font-size: small;
     margin-top: 15px;
     text-decoration-style: none;
@@ -317,7 +366,8 @@ input{
     padding: 10px 16px;
     border-radius: 10px;
     font-weight: bolder;
-    text-decoration: none; 
+    color: black;
+     
 
 }
 .boton2:hover{
@@ -329,14 +379,18 @@ input{
     color: white;
 }
 .noaccount{
+    text-decoration: none;
     font-size: small;
-    margin: 5px;
+    margin:15px 93px;
     text-align: center; 
     color: rgb(104, 103, 103);
     font-weight: 590; 
 }
 .registro{
-    margin-left: 115px;
+    display: block;
+    width: 120px;
+    margin-top: 15px;
+    margin-left: 100px;
     /* border: solid 1px black; */
     text-align: center;
     text-decoration: underline;
@@ -350,4 +404,10 @@ input{
 .registro:hover{
     font-size: small;
     color: orangered;
+}
+footer p{
+    margin-top:50px;
+    margin-bottom: 30px;
+    text-align: center;
+    
 }
