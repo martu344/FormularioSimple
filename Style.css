@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Fredoka&display=swap');
+
+
+
 *{
 padding: 0;
 margin: 0;
 }
+
 body{
     font-family: 'Fredoka';
 }
@@ -27,26 +31,27 @@ h1{
 .fa-phone {
     padding: 0;
     text-align: center;
-    margin-right: 15px;
+    margin-right: 1vw;
     
 }
 .fa-envelope{
     text-align: center;
-    margin-right: 15px;
+    margin-right: 1vw;
 }
 .mail{
     margin-top: 7px;
     font-size: small;
     color: white;
-    margin-right: 50px;
+    /* margin-right: 50px; */
 }
 .tel{
     margin-top: 7px;
-    margin-left: 40px;
+    margin-left: 2vw;
     text-decoration: none;
     font-size: small;
     color: white;
-    margin-right: 60px;
+    margin-right: 5vw;
+    width: 11vw;
 }
 
 .delivery{
@@ -54,16 +59,16 @@ h1{
     text-decoration: none;
     font-size: small;
     color: white;
-    margin-left:440px ;
-    margin-right: 25px;
+    margin-left:40vw ;
+    margin-right: 2vw;
     
 }
 .lineaheader{
-    margin:1px 25px;
+    margin:1px 1vw;
     border-right: solid 1px white;
 }
 .fa-truck-fast{
-    margin-right: 10px; 
+    margin-right: 1vw; 
     text-decoration: none;
     text-decoration-line: none;
     font-size: medium;
@@ -86,7 +91,7 @@ h1{
     color: white;
     background-color: rgb(41, 41, 41);
     margin: 0;
-    margin-left: 15px;
+    margin-left: 1vw;
     font-size: small;
     font-weight: lighter; 
     cursor: pointer;
@@ -100,7 +105,7 @@ h1{
     color: white;
     background-color: rgb(41, 41, 41);
     margin: 0;
-    margin-left: 15px;
+    margin-left: 1vw;
     font-size: small;
     font-weight: lighter; 
     cursor: pointer;
@@ -111,7 +116,7 @@ h1{
 
 .material-symbols-outlined {
     position:relative;
-    right: 20px;
+    right: 2vw;
     top: 4px;
     transition: all 0.25s ease;
     font-variation-settings:
@@ -127,7 +132,7 @@ div .material-symbols-outlined:hover{
 
 .logop{
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 2vw;
     width: 90px;
     height: 90px;
 }
@@ -138,7 +143,7 @@ div .material-symbols-outlined:hover{
 
 .buscador{
     margin-top: 25px;
-    margin-left: 300px;
+    margin-left: 25vw;
     margin-bottom: 50px;
     width: 400px;
     height: 37px;
@@ -151,14 +156,14 @@ div .material-symbols-outlined:hover{
 
 .favoritos{
     margin-top: 30px;
-    margin-left: 160px;
+    margin-left: 10.5vw;
     font-size: small;
     height: 20px;
 }
-a .material-symbols-outlined {
+/* a .material-symbols-outlined {
     position: absolute;
     top: 68px;
-    right: 260px;
+    right: 20.2vw;
     margin: 0;
     color: orangered;
     font-variation-settings:
@@ -171,7 +176,7 @@ a .material-symbols-outlined {
   .carrito .material-symbols-outlined {
     position: absolute;
     top: 68px;
-    right: 145px;
+    right: 10.2vw;
     margin: 0;
     color: orangered;
     font-variation-settings:
@@ -180,19 +185,19 @@ a .material-symbols-outlined {
     'GRAD' 350,
     'opsz' 10
 
-  }
+  } */
 .fa-heart{
     margin-right: 10px;
     color: black;
 }
 .carrito{
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 3vw;
     height: 25px;
     font-size: small;
 }
 .fa-cart-shopping{
-    margin-right: 10px;
+    margin-right: 1vw;
 }
 .user{ 
     margin-top: 30px;
@@ -436,3 +441,4 @@ footer p{
 /* footer:hover p{
         transform: scaleX(1);
 } */
+
