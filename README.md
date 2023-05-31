@@ -8,7 +8,8 @@ permite mantenerse en contacto con clientes. Está desarrollado utilizando HTML 
 El formulario de contacto consta de varios campos importantes que nos permiten recopilar la 
 información necesaria para responder a las consultas y dar acceso al cliente a su cuenta personal del shop. 
 Estos campos incluyen:
--Inicio rapido con los botones de sesion de google, facebook o apple.
--inicio de sesion con telefono o email.
--Registro de cuenta.
+  
+<li>-Inicio rapido con los botones de sesion de google, facebook o apple.</li>
+<li>-inicio de sesion con telefono o email.</li>
+<li>-Registro de cuenta.</li>
 </p>
