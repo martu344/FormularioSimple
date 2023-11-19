@@ -12,4 +12,5 @@ Estos campos incluyen:
 <li>Inicio rapido con los botones de google, facebook o apple.</li>
 <li>inicio de sesion con telefono o email.</li>
 <li>Registro de cuenta.</li>
+Deploy: https://martu344.github.io/GiftShop/
 </p>
